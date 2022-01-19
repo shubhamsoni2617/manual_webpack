@@ -20,9 +20,8 @@ module.exports = {
     maxAssetSize: 512000,
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'static/js/bundle.js',
-
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js',
     publicPath: '/',
   },
   module: {
